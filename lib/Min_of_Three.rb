@@ -9,7 +9,7 @@
 #   between(1337,-1337,0)
 #   # => -1337
 #
-# Returns true or false 
+# Returns the right number
 def Min_of_Three(number1,number2,number3)
 
     if number1 < number2 && number1 < number3
