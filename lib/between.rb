@@ -1,14 +1,15 @@
 # Public: bestämer om de första numret ligger i mellan de andra numrerna
 #
-# text  - numrerna jömförs för att kolla om de första numret ligger i mitten 
-# count - The Integer number of times to duplicate the text.
+# number1 - the integer to check if it is between the other two numbers 
+# number2 - The Integer that is the lowest.
+# number3 - The INteger that is the highest 
 #
 # Examples
 #
-#   multiplex('Tom', 4)
-#   # => 'TomTomTomTom'
+#   between(1,1,10)
+#   # => true
 #
-# Returns the duplicated String.
+# Returns true or false 
 def between(number1,number2,number3)
     output = false 
     if number1 >= number2 && number1 <= number3
@@ -17,4 +18,3 @@ def between(number1,number2,number3)
     return output
 end 
 
-puts between(1,-1,10)
