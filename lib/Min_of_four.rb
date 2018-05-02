@@ -1,4 +1,4 @@
-# Public: Decids the smallest number between three numbers
+# Public: Decids the smallest number between four numbers
 #
 # number1 - the Integer that is one the first number
 # number2 - The Integer that is the second number
