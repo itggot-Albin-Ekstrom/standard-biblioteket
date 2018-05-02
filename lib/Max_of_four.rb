@@ -23,5 +23,3 @@ def Max_of_four(number1,number2,number3,number4)
     end
     return output 
 end
-
-puts Max_of_four(1337,-1337,0,-1338)
