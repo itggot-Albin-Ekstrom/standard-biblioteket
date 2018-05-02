@@ -6,7 +6,7 @@
 #
 # Examples
 #
-#   between(0,-1,1)
+#   between_Strict(0,-1,1)
 #   # => true
 #
 # Returns true or false 
