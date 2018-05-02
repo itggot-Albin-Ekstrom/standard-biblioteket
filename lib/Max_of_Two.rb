@@ -18,4 +18,3 @@ def Max_of_Two(number1,number2)
     end
     return output
 end
-
